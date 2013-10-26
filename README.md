@@ -142,6 +142,9 @@ cd ~/GitHub/rkiel
 git clone https://github.com/rkiel/osx-starter.git
 ```
 
+If you don't want to create links to all the files and directories,
+you can replace `ln -nfs` with `cp -r` in all the commands that follow.
+
 Setup for Bash
 
 Use this for a basic profile.
