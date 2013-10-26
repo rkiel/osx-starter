@@ -15,4 +15,4 @@ alias vi="vim"
 
 PS1="\[\e[1;34m\]\u@\h\[\e[0m\] [ \W ] $ "
 
-source "${STARTER_DOTFILES}/git-completion.bash"
+source ~/.git-completion.bash

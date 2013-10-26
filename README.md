@@ -158,3 +158,15 @@ ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/vim   ~/.vim
 mkdir ~/.backup
 ```
 
+Setup for Ruby
+
+```unix
+ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/rdebugrc ~/.rdebugrc
+```
+
+Setup for Git
+
+```unix
+ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/git-completion.bash ~/.git-completion.bash
+```
+
