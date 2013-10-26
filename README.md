@@ -21,12 +21,12 @@ when things need to be done as the administrator.
 Use the System Preferences to change some defaults.
 
 * Trackpad
-** Point & Click tab -- enable both *Tap to click* and *Three finger drag* and disable *Secondary click*
-** More Gestures tab -- disable *App Expose* and enable all the rest
+    * Point & Click tab -- enable both *Tap to click* and *Three finger drag* and disable *Secondary click*
+    * More Gestures tab -- disable *App Expose* and enable all the rest
 * Dock
-** decrease the *Size* and increase the *Magnification*
+    * decrease the *Size* and increase the *Magnification*
 * Sharing
-** change the *Computer Name*
+    * change the *Computer Name*
 * Print & Scan
-** add your printer
+    * add your printer
 
