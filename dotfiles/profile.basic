@@ -1,4 +1,4 @@
-export STARTER_PATH=~/GitHub/rkie/osx-starter
+export STARTER_PATH=~/GitHub/rkiel/osx-starter
 export STARTER_BIN="${STARTER_PATH}/bin"
 export STARTER_DOTFILES="${STARTER_PATH}/dotfiles"
 
