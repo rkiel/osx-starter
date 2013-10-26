@@ -195,4 +195,12 @@ root    ALL=(ALL) ALL
 robert  ALL=(ALL) ALL
 ```
 
+### Next Steps
+
+At this point you should have the basics setup.
+
+If you are planning on doing Ruby on Rails development,
+I suggest you continue with my [Vagrant quick start guide](https://github.com/rkiel/vagrant-starter).
+
+The remainder of this guide contains some optional setup items.
 
