@@ -16,7 +16,7 @@ That account is setup as an administrator.  Let's change that.
 The rest of this guide will be done as the standard user and will specifically mention
 when things need to be done as the administrator.
 
-### Preferences
+### System Preferences
 
 Use the System Preferences to change some defaults.
 
@@ -53,9 +53,9 @@ Change some of the default *Preferences*.
 
 * Settings tab
     * Text tab
-        * select *Novel* and click the *Default* button
-        * change the *Font* to be *Menlo Regular 14 pt.*
+        * under **Profiles**, select `Novel` and click the `Default` button
+        * change the **Font** to be `Menlo Regular 14 pt.`
     * Window tab
-        * set *Columns* to be 128 and *Rows* to be 24
+        * set **Columns**to be `128` and *Rows* to be `24`
 
 
