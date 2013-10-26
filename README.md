@@ -161,6 +161,7 @@ mkdir ~/.backup
 Setup for Ruby
 
 ```unix
+ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/gemrc    ~/.gemrc
 ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/rdebugrc ~/.rdebugrc
 ```
 
