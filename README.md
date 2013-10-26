@@ -208,7 +208,7 @@ The remainder of this guide contains some optional setup items.
 
 Login as the administrator.
 
-Install Ruby and any associated packages.
+Install RVM in `/usr/local/rvm`
 
 ```unix
 \curl -L https://get.rvm.io | sudo bash -s stable --autolibs=enable --ignore-dotfiles
@@ -216,8 +216,10 @@ Install Ruby and any associated packages.
 
 Login as the standard user.
 
+Add user `robert` to the `rvm` group.
+
 ```unix
-\curl -L https://get.rvm.io | bash -s stable --autolibs=fail --ignore-dotfiles
+sudo dseditgroup -o edit -a robert -t user rvm
 ```
 
 ```unix

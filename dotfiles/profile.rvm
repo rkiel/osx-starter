@@ -17,4 +17,6 @@ PS1="\[\e[1;34m\]\u@\h\[\e[0m\] [ \W ] $ "
 
 source ~/.git-completion.bash
 
-source ~/.rvm/scripts/rvm
+# rvm
+# source ~/.rvm/scripts/rvm
+source /etc/profile.d/rvm.sh
