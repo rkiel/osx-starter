@@ -20,6 +20,8 @@ when things need to be done as the administrator.
 
 Use the System Preferences to change some defaults.
 
+* Security & Privacy
+    * **General** tab -- enable `Require password`
 * Trackpad
     * **Point & Click** tab -- enable both `Tap to click` and `Three finger drag` and disable `Secondary click`
     * **More Gestures** tab -- disable `App Expose` and enable all the rest
@@ -57,5 +59,53 @@ Change some of the default **Preferences**.
         * change the **Font** to be `Menlo Regular 14 pt.`
     * Window tab
         * set **Columns** to be `128` and *Rows* to be `24`
+
+### Git
+
+OS X comes with Git installed.  See [Git](http://git-scm.com) if you want to download and install the latest and greatest.
+
+User Terminal to setup you global configuration settings.
+
+```unix
+git config --global user.name robert
+git config --global user.email robert@robert.com
+git config --global color.ui true
+```
+
+### SSH
+
+Create your public/private key pair and choose a secure passphrase.
+
+```unix
+ssh-keygen -t rsa -C "robert@robert.com"
+```
+
+Verify you can read your private key
+
+```unix
+openssl rsa -noout -text -in ~/.ssh/id_rsa
+```
+
+Add your credentials to the authentication agent and Key Chain
+
+```unix
+ssh-add -K
+```
+
+### GitHub
+
+Configure your GitHub account to recognize your new SSH credentials.
+
+Copy your public key into the paste buffer.
+
+```unix
+cat ~/.ssh/id_rsa.pub | pbcopy
+```
+
+Go to your [GitHub account settings](https://github.com/settings/profile).
+
+* **SSH Keys** tab --  click the **Add SSH key** button
+    * **Title**: `robert@computer name`
+    * **Key**: paste
 
 
