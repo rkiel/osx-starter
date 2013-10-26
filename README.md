@@ -170,3 +170,23 @@ Setup for Git
 ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/git-completion.bash ~/.git-completion.bash
 ```
 
+### Sudo
+
+Login as the administrator.
+
+Edit the `sudoers`
+
+```unix
+sudo vi /private/etc/sudoers
+```
+
+Add `robert` to the User privilege specification
+
+```unix
+# User privilege specification
+root    ALL=(ALL) ALL
+%admin  ALL=(ALL) ALL
+robert  ALL=(ALL) All
+```
+
+
