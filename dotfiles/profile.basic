@@ -1,5 +1,6 @@
 export STARTER_PATH=~/GitHub/rkie/osx-starter
 export STARTER_BIN="${STARTER_PATH}/bin"
+export STARTER_DOTFILES="${STARTER_PATH}/dotfiles"
 
 export EDITOR=${STARTER_BIN}/vim
 
@@ -14,4 +15,4 @@ alias vi="vim"
 
 PS1="\[\e[1;34m\]\u@\h\[\e[0m\] [ \W ] $ "
 
-source "$STARTER_PATH/dotfiles/git-completion.bash"
+source "${STARTER_DOTFILES}/git-completion.bash"
