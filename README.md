@@ -28,7 +28,7 @@ Use the System Preferences to change some defaults.
 * Dock
     * decrease the **Size** and increase the **Magnification**
 * Sharing
-    * **Computer Name**: (dealers choice)
+    * **Computer Name**: (dealer's choice)
 * Print & Scan
     * add your printer
 
@@ -40,7 +40,7 @@ Change some of the default **Preferences**.
     * **Safari opens with**: `All windows from last session`
     * **New windows open with**: `Empty Page`
     * **New tabs open with**: `Empty Page`
-    * **Homepage**: (dealers choice)
+    * **Homepage**: (dealer's choice)
 * Advanced tab
     * enable `Show Develop menu in menu bar`
 
@@ -70,7 +70,7 @@ Go to the [Google code project for MacVim](http://code.google.com/p/macvim/).
 * Once in **Applications**, double-click `MacVim` to start it.
     * Authenicate it as a valid executable.
     * In the **Dock**, right click on `MacVim`
-        * choose **Options* -> `Keep in Dock`
+        * choose **Options** -> `Keep in Dock`
 
 ### Git
 
@@ -203,4 +203,34 @@ If you are planning on doing Ruby on Rails development,
 I suggest you continue with my [Vagrant quick start guide](https://github.com/rkiel/vagrant-starter).
 
 The remainder of this guide contains some optional setup items.
+
+### RVM (optional)
+
+Login as the administrator.
+
+Install Ruby and any associated packages.
+
+```unix
+\curl -L https://get.rvm.io | sudo bash -s stable --autolibs=enable --ignore-dotfiles
+```
+
+Login as the standard user.
+
+```unix
+\curl -L https://get.rvm.io | bash -s stable --autolibs=fail --ignore-dotfiles
+```
+
+```unix
+ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/profile.rvm ~/.profile
+```
+
+
+### Homebrew
+
+Login as the administrator.
+
+```unix
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+```
+
 

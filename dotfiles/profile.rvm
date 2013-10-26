@@ -1,0 +1,20 @@
+export STARTER_PATH=~/GitHub/rkiel/osx-starter
+export STARTER_BIN="${STARTER_PATH}/bin"
+export STARTER_DOTFILES="${STARTER_PATH}/dotfiles"
+
+export EDITOR=${STARTER_BIN}/vim
+
+export PATH=${STARTER_BIN}:/opt/local/sbin:$PATH
+
+alias branch="git branch"
+alias status="git status; echo; echo STASH:; git stash list; echo"
+alias push="git stash save"
+alias pop="git stash pop --index"
+alias log="git log --graph --decorate --abbrev-commit --pretty=oneline"
+alias vi="vim"
+
+PS1="\[\e[1;34m\]\u@\h\[\e[0m\] [ \W ] $ "
+
+source ~/.git-completion.bash
+
+source ~/.rvm/scripts/rvm
