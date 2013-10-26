@@ -47,3 +47,15 @@ Change the default *View*.
 * Customize Toolbar
     * drag the *Home* button up to the toobar
 
+### Terminal
+
+Change some of the default *Preferences*.
+
+* Settings tab
+    * Text tab
+        * select *Novel* and click the *Default* button
+        * change the *Font* to be *Menlo Regular 14 pt.*
+    * Window tab
+        * set *Columns* to be 128 and *Rows* to be 24
+
+
