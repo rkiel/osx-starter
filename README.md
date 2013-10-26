@@ -172,6 +172,8 @@ ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/git-completion.bash ~/.git-completio
 
 ### Sudo
 
+Enable the standard user `robert` to use **sudo**.
+
 Login as the administrator.
 
 Edit the `sudoers`
