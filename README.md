@@ -60,11 +60,26 @@ Change some of the default **Preferences**.
     * Window tab
         * set **Columns** to be `128` and *Rows* to be `24`
 
+### MacVim
+
+Go to the [Google code project for MacVim](http://code.google.com/p/macvim/).
+
+* Download the latest snapshot appropriate to your verions of OS X
+* Once in Downloads, double-click to untar the file
+* Drag the `MacVim` binary from the **Downloads** folder into the **Applications** folder.
+* Once in **Applications**, double-click `MacVim` to start it.  Authenicate it as a valid executable.
+
 ### Git
 
-OS X comes with Git installed.  See [Git](http://git-scm.com) if you want to download and install the latest and greatest.
+OS X comes with Git installed.
 
-User Terminal to setup you global configuration settings.
+```unix
+git --version
+```
+
+See [Git](http://git-scm.com) if you want to download and install the latest and greatest.
+
+Setup your global configuration settings.
 
 ```unix
 git config --global user.name robert
@@ -102,10 +117,18 @@ Copy your public key into the paste buffer.
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
-Go to your [GitHub account settings](https://github.com/settings/profile).
+Go to your [GitHub account settings](https://github.com/settings/ssh).
 
 * **SSH Keys** tab --  click the **Add SSH key** button
     * **Title**: `robert@computer name`
     * **Key**: paste
+
+Confirm that you can access GitHub via SSH with this ping command.
+
+```unix
+ssh -T git@github.com
+```
+
+### Unix
 
 
