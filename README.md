@@ -35,27 +35,27 @@ Use the System Preferences to change some defaults.
 Change some of the default *Preferences*.
 
 * General tab
-    * Safari opens with: *All windows from last session*
-    * New windows open with: *Empty Page*
-    * New tabs open with: *Empty Page*
-    * Homepage: (dealers choice)
+    * **Safari opens with**: `All windows from last session`
+    * **New windows open with**: `Empty Page`
+    * **New tabs open with**: `Empty Page`
+    * **Homepage**: (dealers choice)
 * Advanced tab
-    * enable *Show Develop menu in menu bar*
+    * enable `Show Develop menu in menu bar`
 
-Change the default *View*.
+Change the default **View**.
 
 * Customize Toolbar
-    * drag the *Home* button up to the toobar
+    * drag the `Home` button up to the toobar
 
 ### Terminal
 
-Change some of the default *Preferences*.
+Change some of the default **Preferences**.
 
 * Settings tab
     * Text tab
         * under **Profiles**, select `Novel` and click the `Default` button
         * change the **Font** to be `Menlo Regular 14 pt.`
     * Window tab
-        * set **Columns**to be `128` and *Rows* to be `24`
+        * set **Columns** to be `128` and *Rows* to be `24`
 
 
