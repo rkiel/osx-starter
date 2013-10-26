@@ -186,7 +186,7 @@ Add `robert` to the User privilege specification
 # User privilege specification
 root    ALL=(ALL) ALL
 %admin  ALL=(ALL) ALL
-robert  ALL=(ALL) All
+robert  ALL=(ALL) ALL
 ```
 
 
