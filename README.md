@@ -30,3 +30,20 @@ Use the System Preferences to change some defaults.
 * Print & Scan
     * add your printer
 
+### Safari
+
+Change some of the default *Preferences*.
+
+* General tab
+    * Safari opens with: *All windows from last session*
+    * New windows open with: *Empty Page*
+    * New tabs open with: *Empty Page*
+    * Homepage: (dealers choice)
+* Advanced tab
+    * enable *Show Develop menu in menu bar*
+
+Change the default *View*.
+
+* Customize Toolbar
+    * drag the *Home* button up to the toobar
+
