@@ -142,6 +142,14 @@ cd ~/GitHub/rkiel
 git clone https://github.com/rkiel/osx-starter.git
 ```
 
+Setup for Bash
+
+Use this for a basic profile.
+
+```unix
+ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/profile.basic ~/.profile
+```
+
 Setup for Vim
 
 ```unix
