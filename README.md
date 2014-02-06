@@ -232,7 +232,7 @@ ln -nfs ~/GitHub/rkiel/osx-starter/dotfiles/profile.rvm ~/.profile
 Login as the administrator.
 
 ```unix
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 ```
 
 
