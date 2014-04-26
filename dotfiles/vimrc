@@ -25,7 +25,13 @@ set nowrap
 
 syntax enable
 syntax on
-colors torte
+
+" colors torte
+
+" set background=light
+set background=dark
+colorscheme solarized
+
 
 filetype on
 filetype plugin on
